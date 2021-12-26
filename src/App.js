@@ -9,12 +9,10 @@ export default function App() {
         <Weather />
         <footer>
           Coded by Tara Diego and{" "}
-          <a
-            href="https://github.com/tarabite/react-weather-app"
-            target="_blank"
-          >
+          <a href="https://github.com/tarabite/react-weather-app">
             open-sourced on GitHub
           </a>
+          . Hosted on Netlify.
         </footer>
       </div>
     </div>

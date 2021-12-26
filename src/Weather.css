@@ -20,6 +20,11 @@
   font-weight: bold;
 }
 
+.Weather .btn:hover {
+  background-color: var(--branding-color);
+  color: var(--primary-color);
+}
+
 .Weather h1 {
   color: var(--primary-color);
   font-size: 40px;
