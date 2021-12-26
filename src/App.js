@@ -8,11 +8,13 @@ export default function App() {
       <div className="container">
         <Weather />
         <footer>
-          Coded by Tara Diego and{" "}
-          <a href="https://github.com/tarabite/react-weather-app">
-            open-sourced on GitHub
-          </a>
-          . Hosted on Netlify.
+          Coded by Tara Diego
+          <br />
+          Open-sourced on{" "}
+          <a href="https://github.com/tarabite/react-weather-app">GitHub</a>.
+          <br />
+          Hosted on{" "}
+          <a href="https://stupefied-goodall-8299c5.netlify.app">Netlify</a>.
         </footer>
       </div>
     </div>
