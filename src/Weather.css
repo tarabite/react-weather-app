@@ -1,0 +1,19 @@
+:root {
+  --branding-color: #fdc57b;
+  --section-color: #fbf2d5;
+  --primary-color: #394a51;
+  --secondary-color: #7fa99b;
+  --main-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+
+.Weather {
+  border-radius: 5px;
+  background-color: var(--section-color);
+  margin: 20px;
+  padding: 20px;
+}
+
+.Weather h1 {
+  color: var(--primary-color);
+}
