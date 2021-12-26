@@ -6,21 +6,20 @@ export default function Weather() {
     <div className="Weather">
       <form>
         <div className="row">
-          <div className="col-8">
+          <div className="col-6">
             <input
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
-          <div className="col-4">
+          <div className="col-3">
+            <input type="submit" value="Search" className="btn w-100" />
+          </div>
+          <div className="col-3">
             {" "}
-            <input
-              type="submit"
-              value="Search"
-              className="btn btn-primary"
-            />{" "}
-            <input type="submit" value="Current" className="btn btn-primary" />
+            <input type="submit" value="Current" className="btn w-100" />
           </div>
         </div>
       </form>
@@ -29,19 +28,24 @@ export default function Weather() {
         <li>Date and Time</li>
         <li>Cloudy</li>
       </ul>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
-          <img
-            src="https://http://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="Mostly Cloudy"
-          />
-          6°C
+          <div className="clearfix">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/rain.png"
+              alt="Raining"
+              className="float-left"
+            />
+
+            <span className="temperature">6</span>
+            <span className="unit">°C</span>
+          </div>
         </div>
         <div className="col-6">
           <ul>
-            <li>Precipitation</li>
-            <li>Humidity</li>
-            <li>Wind</li>
+            <li>Precipitation: Yes!</li>
+            <li>Humidity: Wet</li>
+            <li>Wind: Some</li>
           </ul>
         </div>
       </div>
