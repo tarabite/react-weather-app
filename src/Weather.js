@@ -9,13 +9,15 @@ export default function Weather(props) {
     console.log(response.data);
     setWeatherData({
       ready: true,
+      city: response.data.name,
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       date: "Wednesday 07:00",
       iconUrl: `https://ssl.gstatic.com/onebox/weather/64/rain.png`,
-      humidity: response.data.main.huidity,
+      humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
-      city: response.data.main,
+      max: response.data.main.temp_max,
+      min: response.data.main.temp_min,
     });
   }
 
@@ -63,9 +65,12 @@ export default function Weather(props) {
           </div>
           <div className="col-6">
             <ul>
-              <li>Precipitation: Yes!</li>
               <li>Humidity: {weatherData.humidity}</li>
               <li>Wind: {weatherData.wind} km/h</li>
+              <li>
+                H: {Math.round(weatherData.max)}°C | L:{" "}
+                {Math.round(weatherData.min)}°C
+              </li>
             </ul>
           </div>
         </div>
