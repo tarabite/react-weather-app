@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function WeatherTemperature(props) {
   // This will display the temperature results in Celsius and Fahrenheit...
-  const { unit, setUnit } = useState("celsius");
+  const [unit, setUnit] = useState("celsius");
 
   function showFahrenheit(event) {
     event.preventDefault();
