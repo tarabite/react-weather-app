@@ -4,6 +4,8 @@ import axios from "axios";
 import "./Weather.css";
 
 export default function Weather(props) {
+  // This is mostly code for the Search Form...
+  // All other code is nested in the WeatherInfo component...
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
 
@@ -24,7 +26,7 @@ export default function Weather(props) {
   }
 
   function search() {
-    // connects search to Open Weather resources...
+    // connects search to OpenWeather resources...
     const apiKey = "367dabceb4dd658d73d3c5bcb26aa342";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);

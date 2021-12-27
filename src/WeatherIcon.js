@@ -4,6 +4,7 @@ import ReactAnimatedWeather from "react-animated-weather";
 import "./Weather.css";
 
 export default function WeatherIcon(props) {
+  // This will display the Weather Icon...
   const codeMapping = {
     "01d": "CLEAR_DAY",
     "01n": "CLEAR_NIGHT",

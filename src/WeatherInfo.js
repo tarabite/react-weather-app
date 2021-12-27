@@ -4,6 +4,7 @@ import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
+  // This is the collection of Weather components for the Date, Icon, Temperature results, and Weather Condition results...
   return (
     <div className="WeatherInfo">
       <h1>{props.data.city}</h1>
@@ -14,9 +15,9 @@ export default function WeatherInfo(props) {
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
       <div className="row mt-3">
-        <div className="col-8">
+        <div className="col-6">
           <div className="clearfix">
-            <div className="float-left">
+            <div className="float-start">
               <WeatherIcon code={props.data.icon} />
             </div>
 
@@ -25,13 +26,13 @@ export default function WeatherInfo(props) {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-6">
           <ul>
             <li>Humidity: {props.data.humidity}%</li>
             <li>Wind: {props.data.wind} km/h</li>
             <li>
-              H: {Math.round(props.data.max)}°C | L:{" "}
-              {Math.round(props.data.min)}°C
+              H: <strong>{Math.round(props.data.max)}°C</strong> | L:{" "}
+              <strong>{Math.round(props.data.min)}°C</strong>
             </li>
           </ul>
         </div>
