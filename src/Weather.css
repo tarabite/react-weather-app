@@ -28,7 +28,7 @@
 .Weather h1 {
   color: var(--primary-color);
   font-size: 40px;
-  margin: 20px 0 0 0;
+  margin: 20px 0 10px 0;
 }
 
 .Weather ul {
