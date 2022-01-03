@@ -72,11 +72,11 @@
 }
 
 @media (max-width: 576px) {
-  input {
-    font-size: 10px;
+  .form-control {
+    font-size: 12px;
   }
   .searchButton {
-    font-size: 10px;
+    font-size: 12px;
     padding-left: 2px;
     padding-right: 2px;
   }
