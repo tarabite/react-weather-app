@@ -11,7 +11,12 @@ export default function App() {
           Coded by Tara Diego
           <br />
           Open-sourced on{" "}
-          <a href="https://github.com/tarabite/react-weather-app">GitHub</a>
+          <a
+            href="https://github.com/tarabite/react-weather-app"
+            target="blank"
+          >
+            GitHub
+          </a>
           .
           <br />
           Hosted on{" "}
