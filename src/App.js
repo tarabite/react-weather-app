@@ -20,7 +20,10 @@ export default function App() {
           .
           <br />
           Hosted on{" "}
-          <a href="https://stupefied-goodall-8299c5.netlify.app">Netlify</a>.
+          <a href="https://stupefied-goodall-8299c5.netlify.app" target="blank">
+            Netlify
+          </a>
+          .
         </footer>
       </div>
     </div>
