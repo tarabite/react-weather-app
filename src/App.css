@@ -5,6 +5,10 @@
   --secondary-color: #7fa99b;
 }
 
+body {
+  background-color: var(--section-color);
+}
+
 .container {
   margin: 40px auto;
   max-width: 600px;
