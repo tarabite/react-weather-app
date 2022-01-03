@@ -3,6 +3,8 @@ import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
+import "./Forecast.css";
+
 export default function WeatherInfo(props) {
   // This is the collection of Weather components for the Date, Icon, Temperature results, and Weather Condition results...
   return (
@@ -21,7 +23,7 @@ export default function WeatherInfo(props) {
             </div>
 
             <div className="float-left">
-              <WeatherTemperature celsius={props.data.temperature} />
+              <WeatherTemperature fahrenheit={props.data.temperature} />
             </div>
           </div>
         </div>
@@ -31,8 +33,13 @@ export default function WeatherInfo(props) {
             <li>Humidity: {props.data.humidity}%</li>
             <li>Wind: {Math.round(props.data.wind)} km/h</li>
             <li>
-              H: <strong>{Math.round(props.data.max)}°C</strong> | L:{" "}
-              <strong>{Math.round(props.data.min)}°C</strong>
+              <span className="temp-high">
+                H: {Math.round(props.data.max)}°F
+              </span>
+              {" ~ "}
+              <span className="temp-low">
+                L: {Math.round(props.data.min)}°F
+              </span>
             </li>
           </ul>
         </div>
