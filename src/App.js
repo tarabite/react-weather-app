@@ -11,10 +11,24 @@ export default function App() {
           Coded by Tara Diego
           <br />
           Open-sourced on{" "}
-          <a href="https://github.com/tarabite/react-weather-app">GitHub</a>.
+          <a
+            href="https://github.com/tarabite/react-weather-app"
+            target="_blank"
+            rel="noopener moreferrer"
+          >
+            GitHub
+          </a>
+          .
           <br />
           Hosted on{" "}
-          <a href="https://stupefied-goodall-8299c5.netlify.app">Netlify</a>.
+          <a
+            href="https://stupefied-goodall-8299c5.netlify.app"
+            target="_blank"
+            rel="noopener moreferrer"
+          >
+            Netlify
+          </a>
+          .
         </footer>
       </div>
     </div>
