@@ -80,6 +80,9 @@
     padding-left: 2px;
     padding-right: 2px;
   }
+  .Weather .temperature {
+    font-size: 58px;
+  }
   .weatherResults li {
     font-size: 18px;
   }
