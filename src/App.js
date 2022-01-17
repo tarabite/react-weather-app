@@ -12,7 +12,7 @@ export default function App() {
             <div className="Credit">Coded by Tara Diego.</div>
             <div className="WeatherLink">
               <a
-                href="https://stupefied-goodall-8299c5.netlify.app"
+                href="https://agitated-spence-006f7c.netlify.app"
                 alt="Tara's Dictionary App built with React"
                 target="blank"
                 title="Click to visit Tara's React Dictionary App for SheCodes"
