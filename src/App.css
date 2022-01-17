@@ -18,3 +18,31 @@ footer {
   font-size: 12px;
   margin-top: 10px;
 }
+
+.Credit {
+  color: black;
+}
+
+.WeatherLink a {
+  color: black;
+  text-decoration: none;
+}
+.WeatherLink a:hover {
+  font-weight: bold;
+}
+
+.Github a {
+  color: black;
+  text-decoration: none;
+}
+.Github a:hover {
+  font-weight: bold;
+}
+
+.Netlify a {
+  color: black;
+  text-decoration: none;
+}
+.Netlify a:hover {
+  font-weight: bold;
+}

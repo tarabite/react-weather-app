@@ -13,11 +13,11 @@ export default function App() {
             <div className="WeatherLink">
               <a
                 href="https://stupefied-goodall-8299c5.netlify.app"
-                alt="Tara's Weather App built with React"
+                alt="Tara's Dictionary App built with React"
                 target="blank"
-                title="Click to visit Tara's React Weather App for SheCodes"
+                title="Click to visit Tara's React Dictionary App for SheCodes"
               >
-                <i class="fas fa-atlas"></i> Check out my React Weather App{" "}
+                <i class="fas fa-atlas"></i> Check out my React Dictionary App{" "}
                 <i class="fas fa-atlas"></i>
               </a>
             </div>
@@ -46,24 +46,6 @@ export default function App() {
               .
             </div>
           </small>
-        </footer>
-        <footer>
-          Coded by Tara Diego
-          <br />
-          Open-sourced on{" "}
-          <a
-            href="https://github.com/tarabite/react-weather-app"
-            target="blank"
-          >
-            GitHub
-          </a>
-          .
-          <br />
-          Hosted on{" "}
-          <a href="https://stupefied-goodall-8299c5.netlify.app" target="blank">
-            Netlify
-          </a>
-          .
         </footer>
       </div>
     </div>
